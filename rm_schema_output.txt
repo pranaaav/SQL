@@ -1,0 +1,199 @@
+Table CARNIVAL dropped.
+
+Table COMPETITOR dropped.
+
+Table CONTACT dropped.
+
+Table EMER_CONTACT dropped.
+
+Table EVENT_DATA dropped.
+
+Table INFORMATION dropped.
+
+Table ITEM dropped.
+
+Table ITEM_DETAILS dropped.
+
+
+Table MERCHANDISE dropped.
+
+Table "ORDER" dropped.
+
+
+Table ORDER_DETAILS dropped.
+
+Table PARENT dropped.
+
+Table RUN_MONASH dropped.
+
+Table SPONSOR dropped.
+
+Table SPONSOR_INFO dropped.
+
+Table CARNIVAL created.
+
+Comment on column carnival.cardate 'DATE OF THE CARNIVAL.' succeeded.
+
+Comment on column carnival.cardir 'DIRECTOR OF THE CARNIVAL.' succeeded.
+
+Comment on column carnival.carloc 'LOCATION OF THE CARNIVAL.' succeeded.
+
+
+Comment on column carnival.evtoffered 'EVENTS OFFERED IN THE CARNIVAL.' succeeded.
+
+Table CARNIVAL altered.
+
+Table COMPETITOR created.
+
+
+Comment on column competitor.comfname 'FIRST NAME ENTERED BY THE COMPETITOR.' succeeded.
+
+Comment on column competitor.comlname 'LAST NAME ENTERED BY THE COMPETITOR.' succeeded.
+
+Comment on column competitor.comgen 'GENDER OF THE COMPETITOR.' succeeded.
+
+
+Comment on column competitor.comdob 'DATE OF BIRTH ADDED TO THE DATABASE.' succeeded.
+
+Comment on column competitor.comemail 'EMAIL VERIED TO BE TAKEN AS A PRIMARY KEY.' succeeded.
+
+Comment on column competitor.comcontact 'CONTACT NUMBER FOR COM.' succeeded.
+
+Table COMPETITOR altered.
+
+Table CONTACT created.
+
+Comment on column contact.pgcontact 'PRIMARY KEY IN CONTACT ENTITY.' succeeded.
+
+Table CONTACT altered.
+
+Table EMER_CONTACT created.
+
+Comment on column emer_contact.emlname 'LAST NAME.' succeeded.
+
+Comment on column emer_contact.emrelation 'RELATION WITH CONTACT.' succeeded.
+
+Comment on column emer_contact.emcontact 'PRIMARY KEY FOR EMERGENCY CONTACT.' succeeded.
+
+Table EMER_CONTACT altered.
+
+Table EVENT_DATA created.
+
+Comment on column event_data.eventname 'NAME OF THE EVENT THAT IS UNIQUE.' succeeded.
+
+Comment on column event_data.tname 'NAMING IDENTITY.' succeeded.
+
+Comment on column event_data.charity 'NAME OF THE CHARITY IDENTIFIED. ' succeeded.
+
+Table EVENT_DATA altered.
+
+Table INFORMATION created.
+
+Comment on column information.commedcond 'MEDICAL CONDITION ' succeeded.
+
+Comment on column information.comstudent 'STUDENT OR NO' succeeded.
+
+
+Table ITEM created.
+
+Comment on column item.itcode 'ITEM CODE' succeeded.
+
+
+Comment on column item.itdesc 'ITEM DESCRIPTION FOR THE PRODUCT' succeeded.
+
+Comment on column item.itcost 'COST FOR THE ITEM.' succeeded.
+
+Table ITEM altered.
+
+Table ITEM_DETAILS created.
+
+Table MERCHANDISE created.
+
+Comment on column merchandise.cardate 'DATE OF THE CARNIVAL.' succeeded.
+
+Comment on column merchandise.carloc 'LOCATION' succeeded.
+
+Comment on column merchandise.comname 'COMPETITOR NAME' succeeded.
+
+Table MERCHANDISE altered.
+
+Table "ORDER" created.
+
+
+Comment on column "order".ordate 'ORDER DATE' succeeded.
+
+Comment on column "order".ornum 'ORDER NUMBER UNIQUE.' succeeded.
+
+Table "ORDER" altered.
+
+Table ORDER_DETAILS created.
+
+Table PARENT created.
+
+Comment on column parent.pgfname 'FIRST NAME' succeeded.
+
+Comment on column parent.pglname 'LAST NAME' succeeded.
+
+Table RUN_MONASH created.
+
+Comment on column run_monash.comnum 'COMPETITOR NUMBER IN RUN MONASH.' succeeded.
+
+Comment on column run_monash.fname 'FIRST NAME FOR THE COMPETITOR.' succeeded.
+
+
+Comment on column run_monash.lname 'LAST NAME FOR THE COMPETITOR.' succeeded.
+
+Table RUN_MONASH altered.
+
+Table SPONSOR created.
+
+Comment on column sponsor.sponphone 'PHONE NUMBER OF THE SPONSOR.' succeeded.
+
+Comment on column sponsor.namesp 'NAMING SPONSORS.' succeeded.
+
+
+Table SPONSOR altered.
+
+Table SPONSOR_INFO created.
+
+
+Comment on column sponsor_info.spname 'SPONSOR NAME IN DATABASE.' succeeded.
+
+Comment on column sponsor_info.spamount 'AMOUNT FOR SPONSORING.' succeeded.
+
+
+Comment on column sponsor_info.spcontact 'CONTACT NUMBER OF THE SPONSOR.' succeeded.
+
+Table CARNIVAL altered.
+
+Table COMPETITOR altered.
+
+Table CONTACT altered.
+
+Table CONTACT altered.
+
+Table EVENT_DATA altered.
+
+Table EVENT_DATA altered.
+
+Table EVENT_DATA altered.
+
+Table INFORMATION altered.
+
+Table ITEM_DETAILS altered.
+
+Table ITEM_DETAILS altered.
+
+Table MERCHANDISE altered.
+
+Table ORDER_DETAILS altered.
+
+
+Table ORDER_DETAILS altered.
+
+Table PARENT altered.
+
+Table SPONSOR altered.
+
+Table SPONSOR_INFO altered.
+
